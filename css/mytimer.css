@@ -5,27 +5,74 @@
     margin: 10% auto;
     width: 70%;
     text-align: center;
-
+    justify-content: center;
+    height: 250px;
 }
 
 div.container {
+    text-align: center;
+  
+   justify-content: center;
+    /*  */
 
-    background-color: black;
-    opacity: 0.5;
+}
+div.anim{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+   
+}
+.anim {
+    position: relative;
+    top: -5px;
+   
+    
+
+}
+
+.anim .timer {
+    position: relative;
+
+}
+
+.confetti{
+    position: absolute;
+    top: 5px;
+}
+
+.confetti .timer{
+    position: relative;
+}
+
+.close{
+    display:none;
+}
+
+.timer {
+    padding-top: 10px;
+    background-color: #ba00cc;
+    border-radius: 5px;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    opacity: 0.7;
     padding: 10px;
     transform: scale(1);
     animation: pulse 2s infinite;
     transform: scale(1);
-
 }
 
 .playlist {
-    margin: 0px auto;
+    margin: auto;
     text-align: center;
-    width:300px;
+    width: 300px;
+    opacity: 0.6;
    
-    opacity: 0.8;
     padding: 10px;
+}
+.playlist iframe{
+    background-color: #6100ba;
 }
 
 @keyframes pulse {
@@ -47,20 +94,44 @@ div.container {
 
 div.timer p {
     font-family: 'Fredoka One', cursive;
-    font-size: 35px;
+    font-size: 1.5rem;
     color: white;
+
 }
 
 body {
-   
-    background-size: 100%;
-    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-repeat:initial;
+    height: 100%;
     background-image: url('/img/background.svg');
 
+}
+
+.link-git {
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    color: #6100ba;
+    margin: auto;
+    padding: 10px;
+}
+
+footer {
+    margin: 10% auto;
+    width: 70%;
+    text-align: center;
+}
+
+.animation-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) and (orientation:portrait) {
     body {
         background-image: url('/img/background-sm.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 }
