@@ -12,36 +12,47 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
 
+    <!-- JS -->
     <script src="/js/timer.js"></script>
     <script src="/js/dayAnimation.js"></script>
 
+    <!-- Frame works -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <title>Dates</title>
   </head>
   <body>
-
     <div class="container">
-
-     
       <div class="timer">
         <p id="days"></p>
         <p id="months"></p>
         <p id="years"></p>
       </div>
       <div id="specialDay" class="close">
-        <lottie-player class="confetti " src="/animation/confetti.json"  background="transparent"  speed="1"  style="width: 400px; height: 500px;"  loop autoplay></lottie-player>
-
+        <lottie-player
+          class="confetti"
+          src="/animation/confetti.json"
+          background="transparent"
+          speed="1"
+          style="width: 400px; height: 500px"
+          loop
+          autoplay
+        ></lottie-player>
       </div>
       <div class="anim">
-        <lottie-player   src="/animation/calendar.json"  background="transparent"  speed="1"  style="width: 150px; height: 100px;"  loop autoplay></lottie-player>
+        <lottie-player
+          src="/animation/calendar.json"
+          background="transparent"
+          speed="1"
+          style="width: 150px; height: 100px"
+          loop
+          autoplay
+        ></lottie-player>
       </div>
-       
-      
     </div>
-     
+
     <div class="playlist">
       <iframe
-        style="border-radius: 12px;"
+        style="border-radius: 12px"
         src="https://open.spotify.com/embed/playlist/1AbqVwzcwK6xM65U9iTcNz?utm_source=generator&theme=0"
         width="100px"
         height="152"
@@ -51,18 +62,29 @@
         loading="lazy"
       ></iframe>
     </div>
-   
-  
 
-  <footer>
-    <a class="link-git" href="https://github.com/zzeis"
-      >by zzeis <i class="uil uil-github-alt"></i>
-    </a>
-    <div class="animation-footer">
-      <lottie-player   src="/animation/roses.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop autoplay></lottie-player>
-      <lottie-player   src="/animation/hands.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop autoplay></lottie-player>
-    </div>
-
-  </footer>
-</body>
+    <footer>
+      <a class="link-git" href="https://github.com/zzeis"
+        >by zzeis <i class="uil uil-github-alt"></i>
+      </a>
+      <div class="animation-footer">
+        <lottie-player
+          src="/animation/roses.json"
+          background="transparent"
+          speed="1"
+          style="width: 150px; height: 150px"
+          loop
+          autoplay
+        ></lottie-player>
+        <lottie-player
+          src="/animation/hands.json"
+          background="transparent"
+          speed="1"
+          style="width: 150px; height: 150px"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+    </footer>
+  </body>
 </html>
