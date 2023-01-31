@@ -1,10 +1,10 @@
-# Contador de Datas
+# Contador de Datas 📅
 
-- calcula e exibe os dias, anos e meses a partir de uma data especial.
+- Calculates and displays days, years and months from a particular date.
 
-## linguagens
+## linguagens 
 
-- JS
+- *JavaScript*
 
 ## frameworks 
--LottieFiles //for animations
+- *LottieFiles* for animations
