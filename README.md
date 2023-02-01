@@ -6,5 +6,6 @@
 
 - *JavaScript*
 
-## frameworks 
+## Library  
 - *LottieFiles* for animations
+- *Unicons* for icons

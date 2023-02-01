@@ -26,7 +26,7 @@ div.anim{
 .anim {
     position: relative;
     top: -5px;
-   
+    
     
 
 }
@@ -34,6 +34,10 @@ div.anim{
 .anim .timer {
     position: relative;
 
+}
+
+.anim iframe{
+    padding-top: 10px;
 }
 
 .confetti{
@@ -72,7 +76,7 @@ div.anim{
     padding: 10px;
 }
 .playlist iframe{
-    background-color: #6100ba;
+  
 }
 
 @keyframes pulse {
