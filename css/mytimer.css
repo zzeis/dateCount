@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 
 .container {
-    margin: 10% auto;
+    margin: 2% auto;
     width: 70%;
     text-align: center;
     justify-content: center;
@@ -11,23 +14,20 @@
 
 div.container {
     text-align: center;
-  
-   justify-content: center;
+
+    justify-content: center;
     /*  */
 
 }
-div.anim{
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    display: flex;
-   
-}
+
+
 .anim {
     position: relative;
-    top: -5px;
-    
-    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: center;
 
 }
 
@@ -36,26 +36,26 @@ div.anim{
 
 }
 
-.anim iframe{
+.anim iframe {
     padding-top: 10px;
 }
 
-.confetti{
+.confetti {
     position: absolute;
     top: 5px;
 }
 
-.confetti .timer{
+.confetti .timer {
     position: relative;
 }
 
-.close{
-    display:none;
+.close {
+    display: none;
 }
 
 .timer {
     padding-top: 10px;
-    background-color: #ba00cc;
+    background-color: #9400ff;
     border-radius: 5px;
     margin: auto;
     width: 300px;
@@ -68,16 +68,11 @@ div.anim{
 }
 
 .playlist {
-    margin: auto;
-    text-align: center;
-    width: 300px;
-    opacity: 0.6;
-   
-    padding: 10px;
+   cursor: pointer;
+   padding-top: 25px;
 }
-.playlist iframe{
-  
-}
+
+
 
 @keyframes pulse {
     0% {
@@ -106,7 +101,7 @@ div.timer p {
 body {
 
     background-size: cover;
-    background-repeat:initial;
+    background-repeat: initial;
     height: 100%;
     background-image: url('/img/background.svg');
 
@@ -121,12 +116,12 @@ body {
 }
 
 footer {
-    margin: 10% auto;
+    margin: 15% auto;
     width: 70%;
     text-align: center;
 }
 
-.animation-footer{
+.animation-footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -135,7 +130,8 @@ footer {
 @media screen and (max-width: 768px) and (orientation:portrait) {
     body {
         background-image: url('/img/background-sm.svg');
-        background-size: 100%;
+        background-size: cover;
+        height: 100%;
         background-repeat: no-repeat;
     }
 }
