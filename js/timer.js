@@ -1,5 +1,5 @@
 /* Calculating the difference between the current date and a special date. */
-window.addEventListener("load", function () {
+setInterval(function() {
   const now = new Date(); // current date
 
   const specialDay = new Date("2022-03-09"); //special date
@@ -28,5 +28,7 @@ window.addEventListener("load", function () {
 
   document.querySelector("#years").innerHTML = "Anos: " + years;
 
-  console.log(months);
-});
+  console.log(specialDay.getMonth());
+},1000);
+
+
