@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -23,7 +23,7 @@ div.container {
 
 .anim {
     position: relative;
-   
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,9 +67,13 @@ div.container {
     transform: scale(1);
 }
 
+#stopwatch {
+    font-size: 0.7rem;
+}
+
 .playlist {
-   cursor: pointer;
-   padding-top: 25px;
+    cursor: pointer;
+    padding-top: 25px;
 }
 
 
@@ -93,13 +97,12 @@ div.container {
 
 div.timer p {
     font-family: 'Fredoka One', cursive;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
 
 }
 
 body {
-
     background-size: cover;
     background-repeat: initial;
     height: 100%;
