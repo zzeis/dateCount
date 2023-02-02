@@ -18,5 +18,6 @@ setInterval(function() {
   var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
   // Exibir o tempo restante
+  document.querySelector("#stopwatch").innerHTML = days + " dias, " + hours + " horas, " + minutes + " minutos e " + seconds + " segundos restantes.";
   console.log(days + " dias, " + hours + " horas, " + minutes + " minutos e " + seconds + " segundos restantes.");
 }, 1000);
